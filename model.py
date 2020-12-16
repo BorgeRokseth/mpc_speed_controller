@@ -13,6 +13,10 @@ class WayPoint:
         self.north = north
         self.east = east
 
+    def adjust_location(self, move_north: float, move_east: float):
+        self.north = self.north + move_north
+        self.east = self.east + move_east
+
 
 class ShipConfiguration(NamedTuple):
     dead_weight_tonnage: float
