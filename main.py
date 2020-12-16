@@ -1,6 +1,6 @@
 
 from typing import NamedTuple, List
-from ship_in_transit_simulator.models import ShipConfiguration, EnvironmentConfiguration, \
+from .model import ShipConfiguration, EnvironmentConfiguration, \
     MachineryModeParams, MachineryMode, MachineryModes, \
     SimplifiedPropulsionMachinerySystemConfiguration, SimplifiedPropulsionSimulationConfiguration, \
     ShipModelSimplifiedPropulsion, WayPoint
